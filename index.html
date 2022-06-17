@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Single Vid Page - Achanak se</title>
+
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700' rel='stylesheet'
+        type='text/css'>
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!-- External CSS:linked -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main class="site-content">
+
+        <section class="video-area">
+            <div class="wrapper" id="wrapp">
+
+                <header class="video-header">
+                    <h2 class="video-title">Single Vid Page - Gutt</h2>
+                    <small class="video-author"> -- / Shivam / --><a href="http://shivam2point0.000webhostapp.com/"
+                            target="_blank"> Area 95 Wale </a> --></small>
+                </header>
+
+                <div class="video-column">
+                    <div class="video-player">
+                        <button id="btnReplay" class="btn-replay"><span class="fontawesome-refresh"></span></button>
+
+                        <video id="video" class="video"
+                            src="Gutt Ch Paranda (Official Video) Preet Sandhu ft. Sobha, Deep Sandhu - E8 Stringers - Gazab Media.mp4"
+                            type="video/mp4" poster="guttch.jpg" preload="none">
+                        </video>
+
+                        <div class="video-controls">
+
+                            <button id="btnState"><span class="fontawesome-play"></span></button>
+
+                            <span id="timePlayed">00:00</span>
+
+                            <div class="video-bars">
+                                <input type="range" id="barSeeker" class="bar-seeker" value="0" min="0" max="100"
+                                    step="0.1">
+                                <progress value="0" max="100" step="0.1" id="barProgress"
+                                    class="bar-progress"></progress>
+                                <progress value="0" max="100" step="0.1" id="barBuffer" class="bar-buffer"></progress>
+                            </div>
+
+                            <div id="timeBubble" class="time-bubble">00:00</div>
+
+                            <span id="timeDuration">00:00</span>
+
+                            <button id="btnSound" class="btn-sound"><span class="fontawesome-volume-up"></span></button>
+                            <input type="range" id="sliderVolume" class="slider-volume" value="10" min="0" max="10">
+
+                        </div>
+                    </div>
+
+                    <div class="video-info">
+
+                        <div class="description">
+                            <p>Yaad Aati Nahi (Pawan Singh) Video Song 2022 ; 67002_1. 1. Mere Dil Se Teri Yaad Jaati
+                                Nahi Aur Tumko Meri Yaad Aati Nahi</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="playlist" class="playlist">
+                    <header class="next">May i Coming --></header>
+
+                    <a href="Yaad Aati Nahin - Pawan Singh ft. Priyanka Khera_HD-(Hd9video).mp4" class="next-video">
+                        <img src="pawan.jpg" alt="">
+                        <h3 class="single-video-title">Yaad Aati Nahi</h3>
+                        <p class="single-video-info">Pawan Singh</p>
+                        <span class="single-video-des">Yaad Aati Nahi (Pawan Singh) Video Song 2022 ; 67002_1. 1. Mere
+                            Dil Se Teri Yaad Jaati Nahi Aur Tumko Meri Yaad Aati Nahi
+
+                        </span></p>
+                    </a>
+
+                    <a href="Guru Randhawa- Lahore (Official Video) Bhushan Kumar - Vee - DirectorGifty - T-Series.mp4"
+                        class="next-video">
+                        <img src="lahore.jpg" alt="">
+                        <h3 class="single-video-title">Lahore</h3>
+                        <p class="single-video-info">Guru Randhawa</p>
+                        <span class="single-video-des">Lahore Song Guru Randhawa for desktop or mobile device. Guru
+                            Randhawa S Lahore - Guru Randhawa And Bohemia
+
+                        </span></p>
+                    </a>
+
+                    <a href="AP Dhillon - Lofi Mashup - DJ SID JHANSI - Insta Reel-Story Sound.mp4" class="next-video">
+                        <img src="lofi ap dhillo.jpg" alt="">
+                        <h3 class="single-video-title">Lofi Mashup</h3>
+                        <p class="single-video-info">AP Dhillon</p>
+                        <span class="single-video-des"> AP Dhillon Mashup 2022 - DJ SID JHANSI Song Download. AP Dhillon
+                            Mashup Song Download, , Latest Punjabi Songs Mashup 2022, AP Dhillon ...
+
+                        </span></p>
+                    </a>
+
+                    <a href="NINJA - Kalla Changa - B PRAAK - JAB PRAAKANI - SUKH SANGHERA - PUNJABI SONGS - PUNJABI SAD SONGS.mp4"
+                        class="next-video played-video">
+                        <img src="kallacha.webp" alt="">
+                        <h3 class="single-video-title">Kalla Changa</h3>
+                        <p class="single-video-info">B PRAAK - JAB PRAAKANI - SUKH SANGHERA</p>
+                        <span class="single-video-des">Kalla Changa Song from the Kalla Changa album is voiced by famous
+                            singer Ninja. The lyrics of Kalla Changa Song from Kalla Changa album are written by
+                            Jaani.</span></p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="function.js"></script>
+
+</body>
+
+</html>
